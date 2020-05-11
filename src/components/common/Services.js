@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import Header from '../common/Header';
 
 //Reusable component
-import SingleService from '../common/SingleService';
+import SingleService from './SingleService';
 
 const services = [
   {

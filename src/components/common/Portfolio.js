@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from '../common/Header';
 import image1 from '../assets/img/portfolio/01-thumbnail.jpg';
 import image2 from '../assets/img/portfolio/02-thumbnail.jpg';
 import image3 from '../assets/img/portfolio/03-thumbnail.jpg';
@@ -8,7 +7,7 @@ import image5 from '../assets/img/portfolio/05-thumbnail.jpg';
 import image6 from '../assets/img/portfolio/06-thumbnail.jpg';
 
 //Reusable component
-import SinglePortfolio from '../common/SinglePortifolio';
+import SinglePortfolio from './SinglePortfolio';
 
 const items = [
   {
@@ -19,7 +18,7 @@ const items = [
   {
     title: "Explore",
     subtitle: "Graphic Design",
-    logo: image2
+    image: image2
   },
   {
     title: "Finish",
@@ -34,7 +33,7 @@ const items = [
   {
     title: "Southwest",
     subtitle: "Website Design",
-    logo: image5
+    image: image5
   },
   {
     title: "Window",

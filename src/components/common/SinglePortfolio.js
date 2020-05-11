@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import Portfolio from "./Portfolio";
 import  {Link} from 'react-router-dom';
 
 
-class SingleAbout extends Component {
+class SinglePortfolio extends Component {
   render() {
     return (
       <div className="col-lg-4 col-sm-6 mb-4">
@@ -24,4 +23,4 @@ class SingleAbout extends Component {
   }
 }
 
-export default SingleAbout;
+export default SinglePortfolio;
